@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.codepath.apps.mytwitterapp.TimelineActivity" >
+
+   <item
+        android:id="@+id/menu_compose_tweet"
+        android:icon="@drawable/ic_menu_compose"
+        android:orderInCategory="1"
+        android:title="@string/menu_compose_tweet"
+        android:layout_height="10dp"
+        app:showAsAction="ifRoom"/>
+
+</menu>
+ 
